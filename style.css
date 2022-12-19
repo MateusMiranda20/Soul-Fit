@@ -56,4 +56,16 @@ header{
     overflow: hidden;
     text-align: center;
     border-radius: 5px;
+    font-family: mixed;
+}
+
+.biografia {
+    font-size: 30px;
+    width: 520px;
+    height: 460px;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 5px;
+    font-family: mixed;
 }
