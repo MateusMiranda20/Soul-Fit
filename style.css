@@ -5,10 +5,14 @@
 section{
     padding: 0px 0;
     overflow: hidden;
+    background-color:  #f5f8fd;
 }
 
 header{
     background-color: rgba(255, 123, 41, 1);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
 }
 
 .principal{
@@ -17,7 +21,7 @@ header{
     background-position: right 0;
     background-size: cover;
     width: 100%;
-    height: 100vh;  
+    height: 100vh; 
 }
 
 .espaco {
@@ -65,7 +69,7 @@ header{
 }
 
 .fundo_dois{
-    background-color:#f5f8fd;;
+    background-color:#f5f8fd;
     height: auto;
     color: #000000;
 }
@@ -91,7 +95,7 @@ header{
 }
 
 .fundo_tres{
-    background-color: #f5f8fd;;
+    background-color: #f5f8fd;
     height: auto;
     color: #000000;
 }
@@ -178,6 +182,12 @@ header{
    
 }
 
-.conhecer{
-    
+.conhece > h3 {
+    width: 472px;
+    height: 500px;
+    font-size: 36px;
+    line-height: 47px;
+    list-style: 30px;
+    position: relative;
+    top: 60px;
 }
