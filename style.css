@@ -108,6 +108,7 @@ header{
     transition: 1,5s;
     width: 185px;
     height: 155px;
+    cursor: pointer;
     
 }
 
@@ -123,6 +124,7 @@ header{
     transition: 1,5s;
     width: 185px;
     height: 155px;
+    cursor: pointer;
     
 }
 
@@ -132,6 +134,7 @@ header{
     background-color: #FF6B00;
     border-radius: 20px;
     overflow: hidden;
+    
 }
 
 .plano_three:hover{
@@ -140,7 +143,8 @@ header{
     transition: 1,5s;
     width: 185px;
     height: 155px;
-    
+    cursor: pointer;
+
 }
 
 .one{
@@ -172,4 +176,8 @@ header{
    line-height: 28px;
    color: #101010;
    
+}
+
+.conhecer{
+    
 }
