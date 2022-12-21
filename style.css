@@ -2,6 +2,11 @@
     margin: 0%;
 }
 
+section{
+    padding: 0px 0;
+    overflow: hidden;
+}
+
 header{
     background-color: rgba(255, 123, 41, 1);
 }
@@ -43,7 +48,6 @@ header{
 
 .fundo{
     background-color:rgba(74,76,103);
-    width: 100%;
     height: auto;
 }
 
@@ -68,4 +72,87 @@ header{
     text-align: center;
     border-radius: 5px;
     font-family: mixed;
+}
+
+.fundo_dois{
+    background-color: #0300a5;
+    height: auto;
+}
+
+.plano_one{
+    width: 180px;
+    height: 150px;
+    background-color: #FF6B00;
+    border-radius: 20px;
+}
+
+.plano_one:hover{
+    background-color: #f9004d;
+    transition: 1,5s;
+    width: 185px;
+    height: 155px;
+    
+}
+
+.plano_two{
+    width: 180px;
+    height: 150px;
+    background-color: #FF6B00;
+    border-radius: 20px;
+}
+
+.plano_two:hover{
+    background-color: #f9004d;
+    transition: 1,5s;
+    width: 185px;
+    height: 155px;
+    
+}
+
+.plano_three{
+    width: 180px;
+    height: 150px;
+    background-color: #FF6B00;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.plano_three:hover{
+    background-color: #f9004d;
+    color: #101010;
+    transition: 1,5s;
+    width: 185px;
+    height: 155px;
+    
+}
+
+.one{
+    position: relative;
+    top: 40px;
+    font-family: 'Inder';
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    color: #101010;
+}
+
+.two{
+    position: relative;
+    top: 40px;
+    font-family: 'Inder';
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    color: #101010;
+}
+
+.three{
+   position: relative;
+   top: 40px;
+   font-family: 'Inder';
+   font-weight: bold;
+   font-size: 20px;
+   line-height: 28px;
+   color: #101010;
+   
 }
