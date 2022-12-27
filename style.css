@@ -34,12 +34,16 @@ a {
     margin-bottom: 8px;
     transition: .3s;
     font-size: 15px;
-    border-radius: 50px;
+    border-radius: 55px;
     background: #f4e5ce;
     height: 56px;
-    width: 20%;
+    width: 40%;
     overflow: hidden;
     transition: .3s;
+}
+
+i{
+    font-size: 20px;
 }
 
 .nav-link a:hover{
@@ -48,6 +52,10 @@ a {
     width: 100%;
 }
 
+span{
+    padding: 0 9px 0 30px;
+    color: #fff;
+}
 
 .principal{
     background-image:  linear-gradient(90deg, rgba(29, 19, 19, 0.507) 0%, rgba(255, 255, 255, 0.304) 50%, rgba(0, 212, 255, 0) 100%), url('/Imagens/foto\ studio\ nova.jpeg');
