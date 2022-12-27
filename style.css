@@ -9,11 +9,45 @@ section{
 }
 
 header{
-    background-color: rgba(255, 123, 41, 1);
-    width: 100%;
     position: fixed;
-    z-index: 999;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 9997;
+    transition: all .5s;
+    padding: 15px;
+    overflow-y: auto;
+    background-color: transparent;
 }
+
+
+a {
+    background-color: #101010;
+    text-decoration: none
+}
+
+.nav-link>a{
+    display: flex;
+    align-items: center;
+    color: #45505b;
+    padding: 10px 18px;
+    margin-bottom: 8px;
+    transition: .3s;
+    font-size: 15px;
+    border-radius: 50px;
+    background: #f4e5ce;
+    height: 56px;
+    width: 20%;
+    overflow: hidden;
+    transition: .3s;
+}
+
+.nav-link a:hover{
+    color: #fff;
+    background: #631c22;
+    width: 100%;
+}
+
 
 .principal{
     background-image:  linear-gradient(90deg, rgba(29, 19, 19, 0.507) 0%, rgba(255, 255, 255, 0.304) 50%, rgba(0, 212, 255, 0) 100%), url('/Imagens/foto\ studio\ nova.jpeg');
