@@ -37,7 +37,7 @@ a {
     border-radius: 55px;
     background: #f4e5ce;
     height: 56px;
-    width: 40%;
+    width: 29%;
     overflow: hidden;
     transition: .3s;
 }
@@ -53,7 +53,7 @@ i{
 }
 
 span{
-    padding: 0 9px 0 30px;
+    padding: 0 7px 0 50px;
     color: #fff;
 }
 
@@ -195,7 +195,7 @@ span{
 
 .one{
     position: relative;
-    top: 40px;
+    top: 15px;
     font-family: 'Inder';
     font-weight: bold;
     font-size: 20px;
@@ -205,7 +205,7 @@ span{
 
 .two{
     position: relative;
-    top: 40px;
+    top: 15px;
     font-family: 'Inder';
     font-weight: bold;
     font-size: 20px;
@@ -215,7 +215,7 @@ span{
 
 .three{
    position: relative;
-   top: 40px;
+   top: 15px;
    font-family: 'Inder';
    font-weight: bold;
    font-size: 20px;
