@@ -143,8 +143,8 @@ span{
 
 .plano_one{
     width: 180px;
-    height: 150px;
-    background-color: #FF6B00;
+    height: 120px;
+    
     border-radius: 20px;
 }
 
@@ -159,8 +159,8 @@ span{
 
 .plano_two{
     width: 180px;
-    height: 150px;
-    background-color: #FF6B00;
+    height: 120px;
+    
     border-radius: 20px;
 }
 
@@ -175,8 +175,7 @@ span{
 
 .plano_three{
     width: 180px;
-    height: 150px;
-    background-color: #FF6B00;
+    height: 120px;
     border-radius: 20px;
     overflow: hidden;
     
@@ -231,4 +230,53 @@ span{
     list-style: 30px;
     position: relative;
     top: 60px;
+}
+
+#coluna{
+    margin-bottom: 100px;
+}
+
+.footer {
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+}
+.final {
+    background-color: #45505b;
+    width: 100%;
+    padding: 12px; 
+}
+
+/* Barra de Rolagem */
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: black;
+}
+
+.section-bg {
+    background-color: #eff5ff;
+}
+
+.imagem{
+    max-width: 25%;
+}
+
+.nome{
+    color: #FF6B00;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+#social{
+    position: relative;
+    bottom: 100px;
+    left: 220px;
 }
