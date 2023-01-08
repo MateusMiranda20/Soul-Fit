@@ -280,3 +280,13 @@ span{
     bottom: 100px;
     left: 220px;
 }
+
+.frase{
+    font-size: 50px;
+    
+    color: #ffffff;
+    margin-top: 460px;
+    margin-left: 70px;
+    font-family: 'Inder';
+    text-shadow: 0.1em 0.1em 0.05em rgb(0, 0, 0) ;
+}
