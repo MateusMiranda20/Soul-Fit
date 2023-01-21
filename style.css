@@ -42,6 +42,13 @@ a {
 
 }
 
+@media (max-width: 990px) {
+
+    #itens{
+        display: none;
+    }
+}
+
 i{
     font-size: 20px;
 }
@@ -292,7 +299,7 @@ span{
     text-shadow: 0.1em 0.1em 0.05em rgb(0, 0, 0) ;
 }
 
-.mobile {
+.mobile-nav-toggle {
     position: fixed;
     right: 10px;
     top: 12px;
@@ -301,9 +308,22 @@ span{
     background: none;
     line-height: 1;
     font-family: IcoFont!important; 
+    cursor: pointer;
 }
 
 .mobile-nav-toggle > i {
-    color: #000000;
-    font-size: 40px;
+    color: #FF6B00;
+    font-size: 35px;
+}
+
+.abrir {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.fechar{
+    font-weight: bold;
+    color: #fff;
+    font-size: 20px;
 }
