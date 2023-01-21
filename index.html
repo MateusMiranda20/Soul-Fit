@@ -22,22 +22,21 @@
 
 <body>
     <section class="principal" id="home" >
-        <button type="button" class="mobile d-xl-none">
-            <i class="bi bi-list"></i>
+        <button type="button" class="mobile-nav-toggle d-xl-none">
+            <i id="burguer" class="bi bi-list" onclick="mobileMenu()"></i>
         </button>
         <header> 
-                <nav class="nav flex-column mt-5" id="itens">
+            <nav id="itens" class="nav flex-column mt-5" onclick="fecharMenu()">
+                    <div class="nav-link"><a href="#home"><i class="bi bi-house-door-fill"></i><span>Home</span></a></div>
 
-                    <div class="nav-link"><a href="#home">
-                            <i class="bi bi-house-door-fill"></i><span>Home</span>
-                        </a></div>
                     <div class="nav-link"><a href="#quem somos"><i class="bi bi-house"></i><span>Quem somos</span></a></div>
-                    <div class="nav-link"><a href="#instrutor"><i class="bi bi-person-square"></i>
-                            <span>Instrutor</span></a></div>
-                    <div class="nav-link"><a href="#planos"><i class="bi bi-calendar-check"></i><span>Planos</span></a>
-                    </div>
+
+                    <div class="nav-link"><a href="#instrutor"><i class="bi bi-person-square"></i><span>Instrutor</span></a></div>
+
+                    <div class="nav-link"><a href="#planos"><i class="bi bi-calendar-check"></i><span>Planos</span></a></div>
+
                     <div class="nav-link"><a href="#contato"><i class="bi bi-phone"></i><span>Contatos</span></a></div>
-                </nav>
+            </nav>
         </header>
         <div class="container d-flex justify-content-start">
             <p class="frase">Seu corpo é sua armadura</p>
@@ -186,8 +185,6 @@
             </div>
         </section>
     </footer>
-
-
 </body>
 
 </html>
