@@ -85,18 +85,20 @@ span{
     font-weight: bold;
     font-family: cardo;
     color: rgba(255, 123, 41, 1);
+    margin-left: 20px;
 }
 
 .treino{
     font-size: 35px;
-    line-height: 15px;
+    line-height: 39px;
 }
 
 .titulo_1{
-    font-size: 70px;
+    font-size: 50px;
     font-weight: bold;
     font-family: inter, sans-serif;
     color: rgba(255, 123, 41, 1);
+    margin-bottom: 20px;
 }
 
 .fundo{
@@ -108,13 +110,12 @@ span{
 .text{
     color: #060606;
     font-size: 30px;
-    width: 520px;
-    height: 460px;
     margin: auto;
     overflow: hidden;
     text-align: center;
     border-radius: 5px;
     font-family: mixed;
+    margin-bottom: 50px;
 }
 
 .fundo_dois{
@@ -130,18 +131,14 @@ span{
 
 .biografia {
     font-size: 30px;
-    width: 520px;
-    height: 460px;
     margin: auto;
     overflow: hidden;
     text-align: center;
     border-radius: 5px;
     font-family: mixed;
+    margin-bottom: 40px;
 }
 
-.name{
-    color:  #FF6B00;
-}
 
 .fundo_tres{
     background-color: #f5f8fd;
@@ -231,18 +228,14 @@ span{
 }
 
 .conhece > h3 {
-    width: 472px;
     height: 500px;
     font-size: 36px;
     line-height: 47px;
     list-style: 30px;
     position: relative;
-    top: 60px;
+    top: 150px;
 }
 
-#coluna{
-    margin-bottom: 100px;
-}
 
 .footer {
     color: #ffffff;
@@ -282,23 +275,28 @@ span{
     font-size: 20px;
     margin-left: 10px;
 }
-
-#social{
-    position: relative;
-    bottom: 100px;
-    left: 220px;
-}
-
 .frase{
-    font-size: 50px;
-    
+    font-size: 40px;
     color: #ffffff;
-    margin-top: 460px;
     margin-left: 70px;
     font-family: 'Inder';
     text-shadow: 0.1em 0.1em 0.05em rgb(0, 0, 0) ;
+    position: relative;
+    top: 470px;
 }
 
+@media (max-width: 500px) {
+    .frase{
+        top: 440px;
+        font-size: 40px;
+        color: #ffffff;
+        margin-left: 70px;
+        font-family: 'Inder';
+        text-shadow: 0.1em 0.1em 0.05em rgb(0, 0, 0) ;
+        position: relative;
+    }
+
+}
 .mobile-nav-toggle {
     position: fixed;
     right: 10px;
