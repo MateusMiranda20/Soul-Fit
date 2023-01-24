@@ -13,7 +13,6 @@ header{
     top: 0;
     left: 0;
     bottom: 0;
-    z-index: 9997;
     transition: all .5s;
     padding: 15px;
     overflow-y: auto;
@@ -149,7 +148,6 @@ span{
 .plano_one{
     width: 180px;
     height: 120px;
-    
     border-radius: 20px;
 }
 
@@ -164,8 +162,7 @@ span{
 
 .plano_two{
     width: 180px;
-    height: 120px;
-    
+    height: 120px; 
     border-radius: 20px;
 }
 
@@ -182,18 +179,14 @@ span{
     width: 180px;
     height: 120px;
     border-radius: 20px;
-    overflow: hidden;
-    
 }
 
 .plano_three:hover{
     background-color: #ffffff;
-    color: #101010;
     transition: 1,5s;
     width: 185px;
     height: 155px;
     cursor: pointer;
-
 }
 
 .one{
@@ -227,13 +220,11 @@ span{
    
 }
 
-.conhece > h3 {
-    height: 500px;
-    font-size: 36px;
-    line-height: 47px;
-    list-style: 30px;
-    position: relative;
-    top: 150px;
+.conhecer {
+    height: 300px;
+    font-size: 50px;
+    font-family: inder;
+    margin-top: 180px;
 }
 
 
@@ -287,7 +278,7 @@ span{
 
 @media (max-width: 500px) {
     .frase{
-        top: 440px;
+        top: 480px;
         font-size: 40px;
         color: #ffffff;
         margin-left: 70px;
@@ -295,8 +286,16 @@ span{
         text-shadow: 0.1em 0.1em 0.05em rgb(0, 0, 0) ;
         position: relative;
     }
-
 }
+
+#redes_social{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: IcoFont;
+    line-height: 50px;
+}
+
 .mobile-nav-toggle {
     position: fixed;
     right: 10px;
