@@ -1,5 +1,5 @@
 function mouseOver () {
-    document.getElementById("mova").innerHTML = " Dias de treino Segunda há Sexta.";
+    document.getElementById("mova").innerHTML = " R$ 120.";
     document.getElementById("move").innerHTML = " Dias de treino Segunda há Sexta.";
     document.getElementById("mover").innerHTML = " Dias de treino. Segunda há Sexta.";
 }
